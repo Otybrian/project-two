@@ -1,8 +1,11 @@
 html {
     width: 800px;
 }
-.back {
-    background-image: url ("/images/image1.png");
+.section1 {
+    background-image: url ("/images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .one {
     display: flex;
@@ -10,7 +13,7 @@ html {
 .one h3 {
     color: #F6B400;
 }
-.section1 {
+.back {
     display: flex;
 }
 .two ul {
