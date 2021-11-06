@@ -1,0 +1,27 @@
+html {
+    width: 800px;
+}
+.back {
+    background-image: url ("/images/image1.png");
+}
+.one {
+    display: flex;
+}
+.one h3 {
+    color: #F6B400;
+}
+.section1 {
+    display: flex;
+}
+.two ul {
+    list-style: none;
+    display: flex;
+    margin-left: 80%;
+    justify-content: stretch;
+}
+.two button {
+    background-color: #F6B400;
+}
+.section2 {
+    margin-top: 10%;
+}
