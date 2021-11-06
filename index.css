@@ -80,3 +80,18 @@ margin-top: 2em;
     color: white;
     background-color: black;
 }
+.section5 {
+    text-align: center;
+    background-color: #E1EBE6;
+}
+.begin {
+    display: flex;
+    margin-left: 30%;
+}
+.end {
+    display: flex;
+    margin-left: 30%;
+}
+.chapati {
+    border: solid #E1EBE6;
+}
