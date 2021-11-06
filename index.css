@@ -28,3 +28,39 @@ html {
 .section2 {
     margin-top: 10%;
 }
+.section2 button {
+    background-color: #F19201;
+}
+.section3 {
+    text-align: center;
+    background-color: #E1EBE6;
+    margin-top: 10em;
+}
+.section3 button {
+    background-color: #F19201;
+    border-radius: 25px;
+    font-size: x-large;
+    color: white;
+    border-color: #F19201;
+}
+.section3 h1 {
+    color: #F19201;
+}
+.boxes {
+display: flex;
+margin-left: 7%;
+margin-top: 2em;
+}
+#box1 {
+    border: solid #E1EBE6;
+    background-color: white;
+    height: 200px;
+}
+#box2 {
+    border: solid #E1EBE6;
+    background-color: white;
+}
+#box3 {
+    border: solid #E1EBE6;
+    background-color: white;
+}
