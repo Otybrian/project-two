@@ -9,6 +9,7 @@ html {
 }
 .one {
     display: flex;
+    margin-left: 7%;
 }
 .one h3 {
     color: #F6B400;
@@ -20,13 +21,14 @@ html {
     list-style: none;
     display: flex;
     margin-left: 80%;
-    justify-content: stretch;
+    justify-content: space-between;
 }
 .two button {
     background-color: #F6B400;
 }
 .section2 {
     margin-top: 10%;
+    margin-left: 7%
 }
 .section2 button {
     background-color: #F19201;
@@ -54,13 +56,27 @@ margin-top: 2em;
 #box1 {
     border: solid #E1EBE6;
     background-color: white;
+    margin-bottom: 1%;
     height: 200px;
 }
 #box2 {
     border: solid #E1EBE6;
     background-color: white;
+    margin-bottom: 1%;
+    height: 200px;
 }
 #box3 {
     border: solid #E1EBE6;
     background-color: white;
+    margin-bottom: 1%;
+    height: 200px;
+}
+.section4 {
+    display: flex;
+}
+#reviews {
+    text-align: center;
+    margin-left: 0%;
+    color: white;
+    background-color: black;
 }
