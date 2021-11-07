@@ -1,5 +1,7 @@
 html {
     width: 800px;
+    border: solid white;
+
 }
 .board {
     background-image: url("images/image2.png");
@@ -8,7 +10,8 @@ html {
 }
 .section1 {
    display: flex;
-   background-color: transparent;
+   background-color: rgb(168, 150, 129);
+   background: transparent;
 }
 .section1 h5 {
     color: #F6B400;
@@ -26,8 +29,12 @@ html {
 .two ul {
     list-style: none;
     display: flex;
-    margin-left: 80%;
+    margin-left: 90%;
     justify-content: space-between;
+    color: white;
+}
+.two ul #home {
+    color: #F6B400;
 }
 .two button {
     background-color: #F6B400;
@@ -52,6 +59,7 @@ html {
     text-align: center;
     background-color: #E1EBE6;
     margin-top: 0%;
+    height: 410px;
 }
 .section3 button {
     background-color: #F19201;
@@ -59,6 +67,9 @@ html {
     font-size: x-large;
     color: white;
     border-color: #F19201;
+}
+.section3 p {
+    font-style: italic;
 }
 .section3 h1 {
     color: #F19201;
@@ -95,20 +106,27 @@ margin-top: 2em;
     color: white;
     background-color: black;
 }
+.section4 p {
+    font-style: italic;
+}
 .section5 {
     text-align: center;
     background-color: #E1EBE6;
     margin-bottom: 0%;
+    height: 600px;
 }
 .section5 h2 {
     color: #F19201;
+}
+.section5 p {
+    font-style: italic;
 }
 .begin {
     display: flex;
 }
 #chapati {
     display: flex;
-    border: solid grey;
+    border: solid white;
     background-color: white;
     border-width: 1px;
     margin: 1%;
@@ -122,7 +140,7 @@ color: #F19201;
 }
 #beaf {
     display: flex;
-    border: solid grey;
+    border: solid white;
     background-color: white;
     border-width: 1px;
     margin: 1%;
@@ -138,7 +156,7 @@ color: #F19201;
 }
 #chicken {
     display: flex;
-    border: solid grey;
+    border: solid white;
     background-color: white;
     border-width: 1px;
     margin: 1%;
@@ -152,7 +170,7 @@ color: #F19201;
 }
 #rice {
   display: flex; 
-  border: solid grey;
+  border: solid white;
   background-color: white;
   border-width: 1px;
   margin: 1%;
@@ -174,10 +192,15 @@ color: #F19201;
      height: 250px;;
      align-items: center;
      color: white;
+     margin-top: 10%px;
+}
+#up h2 {
+    font-style: italic;
 }
 footer {
     text-align: center;
     margin-top: 2em;
     background-color: black;
     color: white;
+    height: 30px;
 }
