@@ -4,9 +4,14 @@ html {
 .board {
     background-image: url("images/image2.png");
     background-size: cover;
+    height: 320px;
 }
 .section1 {
    display: flex;
+   background-color: transparent;
+}
+.section1 h5 {
+    color: #F6B400;
 }
 .one {
     display: flex;
@@ -26,18 +31,27 @@ html {
 }
 .two button {
     background-color: #F6B400;
+    color: white;
 }
 .section2 {
     margin-top: 10%;
     margin-left: 7%
+    margin-bottom: 0%
+}
+.section2 h2 {
+    color: white;
+    margin: 5%;
 }
 .section2 button {
     background-color: #F19201;
+    color: white;
+    margin: 5%;
+    margin-bottom: 5%;
 }
 .section3 {
     text-align: center;
     background-color: #E1EBE6;
-    margin-top: 10em;
+    margin-top: 0%;
 }
 .section3 button {
     background-color: #F19201;
@@ -84,6 +98,7 @@ margin-top: 2em;
 .section5 {
     text-align: center;
     background-color: #E1EBE6;
+    margin-bottom: 0%;
 }
 .section5 h2 {
     color: #F19201;
@@ -153,6 +168,7 @@ color: #F19201;
     background-image: url("images/Desktop\ -\ 1.png");
     background-size: cover;
     margin-top: 0%;
+    align-items: center;
 }
 #up {
      height: 250px;;
