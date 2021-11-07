@@ -1,6 +1,10 @@
 html {
     width: 800px;
 }
+.board {
+    background-image: url("images/image2.png");
+    background-size: cover;
+}
 .section1 {
    display: flex;
 }
@@ -146,8 +150,18 @@ color: #F19201;
 }
 .section6 {
     text-align: center;
+    background-image: url("images/Desktop\ -\ 1.png");
+    background-size: cover;
+    margin-top: 0%;
+}
+#up {
+     height: 250px;;
+     align-items: center;
+     color: white;
 }
 footer {
     text-align: center;
     margin-top: 2em;
+    background-color: black;
+    color: white;
 }
