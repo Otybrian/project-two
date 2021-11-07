@@ -84,14 +84,44 @@ margin-top: 2em;
     text-align: center;
     background-color: #E1EBE6;
 }
+.section5 h2 {
+    color: #F19201;
+}
+#chapati {
+    display: flex;
+    border: solid grey;
+    background-color: white;
+    border-width: 1px;
+    margin: 3%;
+    align-items: center;
+    height: 210px;
+    width: 280px;
+}
+#price1 h4 {
+color: #F19201;
+}
+#beaf {
+    display: flex;
+    border: solid grey;
+    background-color: white;
+    border-width: 1px;
+    margin: 3%;
+    align-items: center;
+    height: 210px;
+    width: 280px;
+}
+#price2 {
+    color: #F19201;
+}
 .begin {
     display: flex;
-    margin-left: 30%;
 }
-.end {
-    display: flex;
-    margin-left: 30%;
+
+.section6 {
+    text-align: center;
+    background-image: url("/images/Desktop\ -\ 1.png");
 }
-.chapati {
-    border: solid #E1EBE6;
+footer {
+    text-align: center;
+    margin-top: 2em;
 }
